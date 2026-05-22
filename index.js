@@ -12,14 +12,7 @@ let flappyInitialPosition;
 let base;
 let currentScore = 0;
 
-window.onload = () => {
-    let isMobile = checkDevice();
 
-    if(isMobile){
-        const mobileMessage = document.getElementById('mobile-message')
-        mobileMessage.className += " mobile";
-        intro.style.display = 'none';
-    }
 
     flappyInitialPosition = resolutionHeight - (resolutionHeight/2);
 
